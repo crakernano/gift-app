@@ -1,6 +1,7 @@
 import React from 'react'
 import { useFeatchGifs } from '../hooks/useFeatchGifs';
 import { GifGridItem } from './GifGridItem';
+import PropTypes from 'prop-types';
 
 export const GifGrid = ({category}) => {
 
@@ -23,4 +24,8 @@ export const GifGrid = ({category}) => {
                 }
         </div>
     )
+}
+
+GifGrid.protoType = {
+    category: PropTypes.string.isRequired
 }

@@ -9,6 +9,7 @@ export const AddCategory = ({setCategorias}) => {
 
     const handleInputChange = (e) => {
         setInputValue(e.target.value);
+        
     }
 
 
@@ -16,6 +17,7 @@ export const AddCategory = ({setCategorias}) => {
         e.preventDefault();
         if(inputValue.trim().length > 2){
             setCategorias(cats => [inputValue, ...cats]);
+            setInputValue('');
         }
     }
 

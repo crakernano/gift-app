@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory /> Debe cambiar la caja de texto 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="value"
+  />
+</form>
+`;
+
+exports[`Pruebas en <AddCategory /> Debe mostrarse correctamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

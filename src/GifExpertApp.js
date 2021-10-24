@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({defaultCategories = []}) => {
 
-    //const categorias = ['Pokemon', 'Harry Potter', 'Gordipedos']
-    const[categorias, setCategorias] = useState(['Pokemon']);
 
-    //const handleAdd = () => {setCategorias([...categorias, "Mr Robot"]);}
+    const[categorias, setCategorias] = useState(defaultCategories);
+
+
     return(
         <div>
             <h2>GifExpertApp</h2>

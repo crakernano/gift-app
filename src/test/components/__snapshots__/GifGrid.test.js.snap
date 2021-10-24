@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGrid /> Debe mostrar los items cuadno userFeatchGif devuelve datos 1`] = `
+<div
+  className="card-grid"
+>
+  <h3>
+    Pokemon
+  </h3>
+  <GifGridItem
+    id="ABC"
+    key="ABC"
+    title="Titulo"
+    url="https://localhost/imagen.png"
+  />
+</div>
+`;
+
+exports[`Pruebas en <GifGrid /> Debe mostrarse correctamente 1`] = `
+<div
+  className="card-grid"
+>
+  <h3>
+    Pokemon
+  </h3>
+  Cargando...
+</div>
+`;
